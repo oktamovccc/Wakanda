@@ -6,20 +6,16 @@
     list-style-type: none;
 }
 
-body{
-    padding-top: 140px;
-}
-
 .container{
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px; 
+    padding: 0 20px;
 }
 
 .header{
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     border: 1px solid #0077C0;
     padding: 20px 0;
@@ -89,6 +85,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 60px;
 }
 
 .home__text{
@@ -107,6 +104,64 @@ body{
     padding-top: 10px;
     padding-bottom: 30px;
 }
+
+.about{
+    padding: 160px 80px;
+}
+
+.about__text h2{
+    color: #0077C0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about__text h3{
+    color: #0077C0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.mini__box{
+    color: #fff;
+    background-color: #fff;
+    width: 400px;
+    height: 340px;
+    border: 2px solid;
+    border-radius: 20px 0 20px 0;
+    padding: 60px;
+}
+
+.mini__box h3{
+    color: #0077C0;
+    font-size: 1.4rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mini__box p{
+    color: #0077C0;
+    font-size: 14px;
+    max-width: 300px;
+    
+}
+
+.mini__box i{
+    color: #0077C0;
+    border: 1px solid #0077C0;
+    padding: 30px;
+    border-radius: 100%;
+}
+
 
 
 
