@@ -16,8 +16,6 @@
 
 .header {
   width: 100%;
-  position: sticky;
-  top: 0;
   border: 1px solid #0077c0;
   padding: 20px 0;
   background-color: #fff;
@@ -185,7 +183,9 @@
 .works__text p {
   color: black;
   font-size: 1rem;
-  padding-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .works__text span {
@@ -193,7 +193,12 @@
   margin-right: 10px;
   border: 1px solid #0077c0;
   border-radius: 100%;
-  padding: 10px;
+  /* padding: 10px; */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .freelancer {
@@ -370,14 +375,13 @@
   cursor: pointer;
 }
 
-.input label{
-    color: #fff;
-    font-size: 14px;
+.input label {
+  color: #fff;
+  font-size: 14px;
 }
 
-.something{
-    outline: none;
-    border: 1px solid #0077c0;
-    border-radius: 5px;
+.something {
+  outline: none;
+  border: 1px solid #0077c0;
+  border-radius: 5px;
 }
-
